@@ -14,6 +14,7 @@ public class LoginPage {
 	{
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
+		//This will initialize each and every elements
 	}
 		
 	@FindBy(name="uid")
